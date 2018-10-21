@@ -4,11 +4,13 @@ namespace Softwaredesign
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main(int[] args)
         {
-            Console.WriteLine(args[0]);
-            Console.WriteLine(args[1]);
-            Console.WriteLine(args[2]);
+            if( args[0] < 0 && args[0] > 999){
+                Console.Write("Error");
+            }
+            String sNumber = args[0].ToString();
+            int number = Convert.ToInt32(sNumber[0]);
         }
     }
 }
