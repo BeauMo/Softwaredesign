@@ -14,15 +14,32 @@ namespace A2
             //schleifen1();
             //schleifen2();
             //schleifen3();
+            Console.WriteLine(decimalToHexal(122));
         }
 
-        static void vars(){
+        static int decimalToHexal(int dec)
+        {
+            int result = 0;
+            int factor = 1;
+            while (dec != 0)
+            {
+                int digit = dec % 6;
+                dec /= 6;
+                result += factor * digit;
+                factor *= 10;
+            }
+            return result;
+        }
+
+        static void vars()
+        {
             var i = 12;
             var pi = Math.PI;
             var salute = "Hi";
             var shoort = 20000000000;
             var flooat = 4.1111F;
             var doouble = 0.12345;
+
             Console.WriteLine(i.GetTypeCode());
             Console.WriteLine(pi.GetTypeCode());
             Console.WriteLine(salute.GetTypeCode());
@@ -31,23 +48,25 @@ namespace A2
             Console.WriteLine(doouble.GetTypeCode());
         }
 
-        static void arrays(){
-            int[] ia = {1, 0, 2, 9, 3, 8, 4, 7, 5, 6};
+        static void arrays()
+        {
+            int[] ia = { 1, 0, 2, 9, 3, 8, 4, 7, 5, 6 };
             int ergebnis = ia[2] * ia[8] + ia[4];
 
             Console.WriteLine(ergebnis);
 
-            double[] da = {Math.PI, 5, 3, 4, 6};
+            double[] da = { Math.PI, 5, 3, 4, 6 };
 
             Console.WriteLine(da.Length);
         }
 
-        static void strings(){
+        static void strings()
+        {
             //string meinString = "Dies ist ein String";
 
             string a = "Dies ist ";
             string b = "ein String";
-            string c = a+b;
+            string c = a + b;
 
             //Console.WriteLine(meinString);
             //Console.WriteLine(c);
@@ -62,14 +81,17 @@ namespace A2
             Console.WriteLine(d_equals_f);
         }
 
-        static void strings2(){
+        static void strings2()
+        {
             int a = int.Parse(Console.ReadLine());
             int b = int.Parse(Console.ReadLine());
 
-            if(a >=3 && b==6)
+            if (a >= 3 && b == 6)
             {
                 Console.WriteLine("Du hast gewonnen!");
-            } else{
+            }
+            else
+            {
                 Console.WriteLine("Leider verloren");
             }
         }
@@ -122,27 +144,31 @@ namespace A2
         {
             string s = Console.ReadLine();
 
-            if(s == "Hi")
+            if (s == "Hi")
             {
                 Console.WriteLine("Du hast Hi eingegeben.");
-               
-            } else if(s == "Hey")
+
+            }
+            else if (s == "Hey")
             {
                 Console.WriteLine("Hey war deine Wahl");
-            } else if(s == "Hallo")
+            }
+            else if (s == "Hallo")
             {
                 Console.WriteLine("Du tipptest Hallo");
-            } else
-            {
-                Console.WriteLine("Das Wort " +s+ " kenne ich leider nicht.");
             }
-            
-            
+            else
+            {
+                Console.WriteLine("Das Wort " + s + " kenne ich leider nicht.");
+            }
+
+
         }
         static void schleifen1()
         {
             int i = 0;
-            while(i<10){
+            while (i < 10)
+            {
                 i++;
                 Console.WriteLine(i);
             }
@@ -168,16 +194,16 @@ namespace A2
             } */
 
             int i = 0;
-            while(i<someStrings.Length)
+            while (i < someStrings.Length)
             {
                 Console.WriteLine(someStrings[i]);
                 i++;
-                
+
             }
         }
         static void schleifen3()
         {
-            
+
             string[] someStrings =
             {
                 "Hier",
@@ -188,8 +214,8 @@ namespace A2
                 "von",
                 "Strings"
             };
-            
-            
+
+
             int i = 0;
             do
             {
@@ -198,13 +224,13 @@ namespace A2
             } while (i < someStrings.Length);
 
             int g = 0;
-            while(true)
+            while (true)
             {
                 Console.WriteLine(someStrings[g]);
-                if(g > someStrings.Length)
-                break;
+                if (g > someStrings.Length)
+                    break;
                 g++;
-                
+
             }
         }
     }
