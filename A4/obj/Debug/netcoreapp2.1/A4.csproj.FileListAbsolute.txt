@@ -1,0 +1,11 @@
+C:\Users\Moritz\Documents\GitHub\Softwaredesign\A4\bin\Debug\netcoreapp2.1\A4.deps.json
+C:\Users\Moritz\Documents\GitHub\Softwaredesign\A4\bin\Debug\netcoreapp2.1\A4.runtimeconfig.json
+C:\Users\Moritz\Documents\GitHub\Softwaredesign\A4\bin\Debug\netcoreapp2.1\A4.runtimeconfig.dev.json
+C:\Users\Moritz\Documents\GitHub\Softwaredesign\A4\bin\Debug\netcoreapp2.1\A4.dll
+C:\Users\Moritz\Documents\GitHub\Softwaredesign\A4\bin\Debug\netcoreapp2.1\A4.pdb
+C:\Users\Moritz\Documents\GitHub\Softwaredesign\A4\obj\Debug\netcoreapp2.1\A4.csprojAssemblyReference.cache
+C:\Users\Moritz\Documents\GitHub\Softwaredesign\A4\obj\Debug\netcoreapp2.1\A4.csproj.CoreCompileInputs.cache
+C:\Users\Moritz\Documents\GitHub\Softwaredesign\A4\obj\Debug\netcoreapp2.1\A4.AssemblyInfoInputs.cache
+C:\Users\Moritz\Documents\GitHub\Softwaredesign\A4\obj\Debug\netcoreapp2.1\A4.AssemblyInfo.cs
+C:\Users\Moritz\Documents\GitHub\Softwaredesign\A4\obj\Debug\netcoreapp2.1\A4.dll
+C:\Users\Moritz\Documents\GitHub\Softwaredesign\A4\obj\Debug\netcoreapp2.1\A4.pdb

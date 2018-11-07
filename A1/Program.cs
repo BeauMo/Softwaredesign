@@ -8,7 +8,8 @@ namespace Softwaredesign
         {
             String romanNumber = "";
 
-            int zahl = Convert.ToInt32(args[0]);
+            //int zahl = Convert.ToInt32(args[0]);
+            int zahl = 10;
             String[] einer = {"","I","II","III","IV","V","VI","VII","VIII","IX"}; 
             String[] zehner = {"","X","XX","XXX","XL","L","LX","LXX","LXXX","XC"};
             String[] hunderter = {"","C","CC","CCC","CD","D","DC","DCC","DCCC","CM"};
@@ -35,3 +36,4 @@ namespace Softwaredesign
         }
     }
 }
+

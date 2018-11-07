@@ -1,0 +1,11 @@
+C:\Users\Moritz\Documents\GitHub\Softwaredesign\romanNumersClass\bin\Debug\netcoreapp2.1\romanNumersClass.deps.json
+C:\Users\Moritz\Documents\GitHub\Softwaredesign\romanNumersClass\bin\Debug\netcoreapp2.1\romanNumersClass.runtimeconfig.json
+C:\Users\Moritz\Documents\GitHub\Softwaredesign\romanNumersClass\bin\Debug\netcoreapp2.1\romanNumersClass.runtimeconfig.dev.json
+C:\Users\Moritz\Documents\GitHub\Softwaredesign\romanNumersClass\bin\Debug\netcoreapp2.1\romanNumersClass.dll
+C:\Users\Moritz\Documents\GitHub\Softwaredesign\romanNumersClass\bin\Debug\netcoreapp2.1\romanNumersClass.pdb
+C:\Users\Moritz\Documents\GitHub\Softwaredesign\romanNumersClass\obj\Debug\netcoreapp2.1\romanNumersClass.csprojAssemblyReference.cache
+C:\Users\Moritz\Documents\GitHub\Softwaredesign\romanNumersClass\obj\Debug\netcoreapp2.1\romanNumersClass.csproj.CoreCompileInputs.cache
+C:\Users\Moritz\Documents\GitHub\Softwaredesign\romanNumersClass\obj\Debug\netcoreapp2.1\romanNumersClass.AssemblyInfoInputs.cache
+C:\Users\Moritz\Documents\GitHub\Softwaredesign\romanNumersClass\obj\Debug\netcoreapp2.1\romanNumersClass.AssemblyInfo.cs
+C:\Users\Moritz\Documents\GitHub\Softwaredesign\romanNumersClass\obj\Debug\netcoreapp2.1\romanNumersClass.dll
+C:\Users\Moritz\Documents\GitHub\Softwaredesign\romanNumersClass\obj\Debug\netcoreapp2.1\romanNumersClass.pdb
