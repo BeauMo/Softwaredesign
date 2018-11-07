@@ -1,2 +1,2 @@
-# Softwaredesign ja moin
-guten Tagsjehfguzs
+# Softwaredesign
+Guten Tag!
