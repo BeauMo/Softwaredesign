@@ -1,2 +1,2 @@
-# Softwaredesign ja moin
+# Softwaredesign
 Guten Tag!
