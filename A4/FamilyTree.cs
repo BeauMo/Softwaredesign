@@ -13,19 +13,22 @@ namespace Debugging
         public Person Dad;
     }
 
-
     public class Familytree
     {
         public static Person Find(Person person)
         {
             Person ret = null;
-            if (person.LastName != "Cambridge")
-                return person;
+            if (person != null){
+                if(person.DateOfBirth.Year >= 1895 && person.DateOfBirth.Year <= 1910){
+                    return person;
+                }
 
-            ret = Find(person.Mom);
-            if (ret != null)
-                return ret;
-            ret = Find(person.Dad);
+                ret = Find(person.Mom);
+                if (ret != null)
+                    return ret;
+                ret = Find(person.Dad);
+            }
+
             return ret;
         }
 

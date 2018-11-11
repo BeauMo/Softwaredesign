@@ -17,8 +17,13 @@ namespace Debugging
             Person root = Familytree.BuildTree();
 
             Person found = Familytree.Find(root);
+            if(found != null){
+                WriteLine(found.FirstName);
+            }
+            else{
+                WriteLine("Keine Person in dieser Alterspanne gefunden");
+            }
 
-            WriteLine(found.FirstName);
-        }
+        }   
     }
 }
