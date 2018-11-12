@@ -20,6 +20,7 @@ namespace Debugging
             Person ret = null;
             if (person != null){
                 if(person.DateOfBirth.Year >= 1895 && person.DateOfBirth.Year <= 1910){
+                //if(person.DateOfBirth.Year == 1948){
                     return person;
                 }
 
