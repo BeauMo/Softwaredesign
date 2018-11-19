@@ -687,11 +687,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Moritz\\Documents\\GitHub\\Softwaredesign\\romanNumersClass\\romanNumersClass.csproj",
+      "projectUniqueName": "c:\\Users\\Moritz\\Documents\\GitHub\\Softwaredesign\\A1\\romanNumersClass.csproj",
       "projectName": "romanNumersClass",
-      "projectPath": "C:\\Users\\Moritz\\Documents\\GitHub\\Softwaredesign\\romanNumersClass\\romanNumersClass.csproj",
+      "projectPath": "c:\\Users\\Moritz\\Documents\\GitHub\\Softwaredesign\\A1\\romanNumersClass.csproj",
       "packagesPath": "C:\\Users\\Moritz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Moritz\\Documents\\GitHub\\Softwaredesign\\romanNumersClass\\obj\\",
+      "outputPath": "c:\\Users\\Moritz\\Documents\\GitHub\\Softwaredesign\\A1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

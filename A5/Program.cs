@@ -12,6 +12,7 @@ namespace A5
             Console.WriteLine(input);
             Console.WriteLine(reverseString(input));
             Console.WriteLine(reverseSentence(input));
+            Console.WriteLine(reverseWord(input));
         }
 
         static String reverseString(String input){
@@ -28,15 +29,21 @@ namespace A5
             return reversedSentence;
         }
 
-        static String reverseWord(String input){
-            string[] inputArray = input.Split(" ");
-            StringBuilder reversedWord = null;
+        public static String reverseWord ( String input ){
 
-            for(int i = 0; i < inputArray.Length; i++){
-                reversedWord.Append(Reverse(inputArray[i]));
-                reversedWord.Append(" ");
+            string [] inputArray = input . Split ( ' ' ) ;
+            string reversedWords = "" ;
+            string collectedLetters = "" ;
+            
+            for ( int i = 0 ; i < inputArray .Length ; i ++ )
+            {
+            string temporaryString = inputArray [i ] ;
+            char [] temporaryArray = temporaryString . ToCharArray () ;
+            Array . Reverse (temporaryArray ) ;
+            collectedLetters = String . Join ( "" , temporaryArray ) ;
+            reversedWords += collectedLetters + " " ;
             }
-            return reversedWord.ToString();
+            return reversedWords ;
         }
     }
 }
