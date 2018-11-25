@@ -58,6 +58,7 @@ namespace A6
                 string newQuest = Console.ReadLine();
                 Console.WriteLine("Jetzt die möglichn Antworten(durch Kommas ohne Leerzeichen getrennt), die richtige Antwort bitte zuerst");
                 string[] arrayNewAnswers = Console.ReadLine().Split(",");
+                
                 List<string> newAnswers = arrayNewAnswers.ToList();
                 string correctAnswer = newAnswers[0];
                 newAnswers.RemoveAt(0);
