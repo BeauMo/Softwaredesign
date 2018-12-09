@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "c:\\Users\\Moritz\\Documents\\GitHub\\Softwaredesign\\A8\\A8.csproj",
+  "TargetFramework": "netcoreapp2.1",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}
