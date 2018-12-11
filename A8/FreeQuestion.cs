@@ -1,11 +1,14 @@
 using System;
 using System.Collections.Generic;
 
-namespace A8{
+namespace A8
+{
 
-    class FreeQuestion : Quizelement{
+    class FreeQuestion : Quizelement
+    {
 
-        public FreeQuestion(string question, string textAnswer){
+        public FreeQuestion(string question, string textAnswer)
+        {
             this.question = question;
             this.textAnswer = textAnswer;
             this.callToAction = "Geben sie eine Antwort ein";
@@ -13,18 +16,18 @@ namespace A8{
 
         public string textAnswer;
 
-        public override void show(){
+        public override void show()
+        {
             Console.WriteLine(this.callToAction);
             Console.WriteLine(this.question);
         }
 
-        public override bool isAnswerCorrect(string userAnswer){
-            if(userAnswer.Equals(this.textAnswer)){
+        public override bool isAnswerCorrect(string userAnswer)
+        {
+            if (userAnswer.Equals(this.textAnswer))
                 return true;
-            }
-            else{
+            else
                 return false;
-            }
         }
 
     }

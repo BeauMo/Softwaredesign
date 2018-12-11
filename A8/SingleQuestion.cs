@@ -1,11 +1,14 @@
 using System;
 using System.Collections.Generic;
 
-namespace A8{
+namespace A8
+{
 
-    class SingleQuestion : Quizelement{
+    class SingleQuestion : Quizelement
+    {
 
-        public SingleQuestion(string question, List<Answer> answers){
+        public SingleQuestion(string question, List<Answer> answers)
+        {
             this.question = question;
             this.answers = answers;
             this.callToAction = "Gebe den Buchstaen der richtigen Antwort ein.";

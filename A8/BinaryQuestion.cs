@@ -1,11 +1,14 @@
 using System;
 using System.Collections.Generic;
 
-namespace A8{
+namespace A8
+{
 
-    class BinaryQuestion : Quizelement{
+    class BinaryQuestion : Quizelement
+    {
 
-        public BinaryQuestion(string question, bool right){
+        public BinaryQuestion(string question, bool right)
+        {
             this.question = question;
             this.right = right;
             this.callToAction = "Wahr oder Fasch?";
@@ -13,15 +16,17 @@ namespace A8{
 
         public bool right;
 
-        public override void show(){
+        public override void show()
+        {
             Console.WriteLine(callToAction);
             Console.WriteLine(question);
         }
 
-        public override bool isAnswerCorrect(string userAnswer){
-            if(userAnswer.Equals("Wahr") && right == true)
+        public override bool isAnswerCorrect(string userAnswer)
+        {
+            if (userAnswer.Equals("Wahr") && right == true)
                 return true;
-            if(userAnswer.Equals("Falsch") && right == false)
+            if (userAnswer.Equals("Falsch") && right == false)
                 return true;
 
             return false;
