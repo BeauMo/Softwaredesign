@@ -1,0 +1,66 @@
+{
+  "$type": "A8.MultiChoiceQuest, A8",
+  "question": "Wie findest du dieses Quiz",
+  "answers": [
+    {
+      "$type": "A8.Answer, A8"
+    },
+    {
+      "$type": "A8.Answer, A8"
+    },
+    {
+      "$type": "A8.Answer, A8"
+    },
+    {
+      "$type": "A8.Answer, A8"
+    },
+    {
+      "$type": "A8.Answer, A8"
+    },
+    {
+      "$type": "A8.Answer, A8"
+    }
+  ],
+  "callToAction": "Gebe alle Buchstaben der richtigen Antwort mit Komma getrennt ein (ohne Leerzeichen)."
+}
+{
+  "$type": "A8.SingleQuestion, A8",
+  "question": "Alle meine ... schwimmen auf dem See",
+  "answers": [
+    {
+      "$type": "A8.Answer, A8"
+    },
+    {
+      "$type": "A8.Answer, A8"
+    },
+    {
+      "$type": "A8.Answer, A8"
+    },
+    {
+      "$type": "A8.Answer, A8"
+    }
+  ],
+  "callToAction": "Gebe den Buchstaen der richtigen Antwort ein."
+}
+{
+  "$type": "A8.FreeQuestion, A8",
+  "textAnswer": "Angela Merkel",
+  "question": "Wer ist unser Bundeskanzler?",
+  "answers": null,
+  "callToAction": "Geben sie eine Antwort ein"
+}
+{
+  "$type": "A8.GuessQuestion, A8",
+  "correctValue": 40000,
+  "range": 10000,
+  "question": "Welchen Umfang hat die Erde",
+  "answers": null,
+  "callToAction": "Schätze den Wert und geb ihn ein"
+}
+{
+  "$type": "A8.BinaryQuestion, A8",
+  "right": true,
+  "question": "Links ist da wo der Daumen rechts ist!",
+  "answers": null,
+  "callToAction": "Wahr oder Fasch?"
+}

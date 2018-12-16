@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+using System.IO;
 
 namespace A8
 {
@@ -10,7 +13,14 @@ namespace A8
 
         static void Main(string[] args)
         {
-            defaultQuestions();
+            // defaultQuestions();
+            
+            // foreach(Quizelement question in allQuestions){
+            //     QuestionToJson(question);
+            // }
+
+            readQuestions();
+
             while (true)
             {
                 Console.WriteLine("Möchtest du das Quiz spielen oder neue Fragen anlegen? Tippe spielen, neu oder exit um alles zu beenden");
@@ -28,6 +38,31 @@ namespace A8
                 }
             }
 
+        }
+
+        public static void QuestionToJson(Quizelement question)
+        {
+            JsonSerializerSettings settings = new JsonSerializerSettings
+            {
+                TypeNameHandling = TypeNameHandling.Objects,
+                Formatting = Formatting.Indented,
+            };
+
+            string JQuestion = JsonConvert.SerializeObject(question,settings);
+
+            using (StreamWriter sw = new StreamWriter("C:\\Users\\Moritz\\Documents\\GitHub\\Softwaredesign\\A8\\allQuestions.txt",true)){
+                sw.WriteLine(JQuestion);
+
+            }
+        }
+
+        public static void readQuestions(){
+            StringReader sr = new StringReader("C:\\Users\\Moritz\\Documents\\GitHub\\Softwaredesign\\A8\\allQuestions.txt");
+            String json = sr.ReadToEnd();
+            
+            JObject jo = JObject.Parse(json);
+            
+        
         }
 
         public static void Game()
