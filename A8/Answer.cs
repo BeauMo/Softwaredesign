@@ -9,9 +9,9 @@ namespace A8{
             this.correct = correct;
         }
 
-        private string option;
+        public string option;
 
-        private bool correct;
+        public bool correct;
 
         public string Get(){
             return this.option;

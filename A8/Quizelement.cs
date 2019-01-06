@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace A8
 {
-    class Quizelement
+    abstract class Quizelement
     {
 
         public string question;

@@ -50,17 +50,23 @@ namespace A8
 
             string JQuestion = JsonConvert.SerializeObject(question,settings);
 
-            using (StreamWriter sw = new StreamWriter("C:\\Users\\Moritz\\Documents\\GitHub\\Softwaredesign\\A8\\allQuestions.txt",true)){
+            using (StreamWriter sw = new StreamWriter("C:\\Users\\Moritz\\Documents\\GitHub\\Softwaredesign\\A8\\allQuestions.json",true)){
                 sw.WriteLine(JQuestion);
 
             }
         }
 
         public static void readQuestions(){
-            StringReader sr = new StringReader("C:\\Users\\Moritz\\Documents\\GitHub\\Softwaredesign\\A8\\allQuestions.txt");
-            String json = sr.ReadToEnd();
+            JsonSerializerSettings settings = new JsonSerializerSettings
+            {
+                TypeNameHandling = TypeNameHandling.Objects,
+                Formatting = Formatting.Indented,
+            };
+
+            // StringReader sr = new StringReader("C:\\Users\\Moritz\\Documents\\GitHub\\Softwaredesign\\A8\\allQuestions.txt");
+            // String json = sr.ReadToEnd();
             
-            JObject jo = JObject.Parse(json);
+            allQuestions = JsonConvert.DeserializeObject<List<Quizelement>>(File.ReadAllText(@"C:\\Users\\Moritz\\Documents\\GitHub\\Softwaredesign\\A8\\allQuestions.json"), settings);
             
         
         }
