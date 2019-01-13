@@ -34,13 +34,7 @@ namespace A10
             //Console.WriteLine(root.id);
             tn2.remove();
 
-            foreach (TreeNode<string> tn in root.getAllNodes())
-            {
-                if(tn==null)
-                    Console.WriteLine("Fehler");
-                else
-                    Console.WriteLine(tn.id);
-            }
+            tree.print();
         }
     }
 }

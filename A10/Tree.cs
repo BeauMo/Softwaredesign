@@ -32,5 +32,15 @@ namespace A10
             }
             return null;
         }
+
+        public void print(){
+            foreach (TreeNode<T> tn in root.getAllNodes())
+            {
+                if(tn==null)
+                    Console.WriteLine("Fehler");
+                else
+                    Console.WriteLine(tn.id);
+            }
+        }
     }
 }

@@ -38,17 +38,20 @@ namespace A10
         public void remove()
         {
             int i = 0;
+            TreeNode<T> test = this;
             foreach (TreeNode<T> pChild in parent.children)
             {
                 if (pChild.id.Equals(id))
                 {
                     break;
                 }
+                i++;
             }
             parent.children.Remove(parent.children[i]);
             foreach (TreeNode<T> child in children)
             {
                 child.parent = parent;
+                parent.children.Add(child);
             }
             parent = null;
         }
