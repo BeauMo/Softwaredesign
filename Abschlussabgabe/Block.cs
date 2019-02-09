@@ -5,9 +5,8 @@ namespace Abschlussabgabe
 {
     class Block
     {
-        public Block(Course course)
+        public Block()
         {
-            this.course = course;
         }
         public Course course;
     }

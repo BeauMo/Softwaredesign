@@ -5,9 +5,12 @@ namespace Abschlussabgabe
 {
     class Room
     {
-        public Room(string name, int seats, List<Condition> roomConditions, Timetable roomTimetable)
+        public Room(string name, int seats, List<Conditions> roomConditions)
         {
-
+            this.name = name;
+            this.seats = seats;
+            this.roomConditions = roomConditions;
+            this.roomTimetable = new Timetable();
         }
         public string name;
         public int seats;
@@ -34,7 +37,7 @@ namespace Abschlussabgabe
 
             if(this.isRoomBigEnough(course) == false)
                 return false;
-                
+
             return true;
         }
 

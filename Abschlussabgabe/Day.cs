@@ -7,7 +7,7 @@ namespace Abschlussabgabe
     {
         public Day()
         {
-            this.blocksOnDay = new Block[6];
+            this.blocksOnDay = new Block[6]{new Block(),new Block(),new Block(),new Block(),new Block(),new Block(),};
         }
         public Block[] blocksOnDay;
 

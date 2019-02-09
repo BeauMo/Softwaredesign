@@ -24,7 +24,7 @@ namespace Abschlussabgabe
         public bool hasTime(int numberOfDay){
             foreach(int blockedDay in blockedDays)
             {
-                if(numberOfDay == blockedDay){
+                if(numberOfDay+1 == blockedDay){
                     return false;
                 }
             }

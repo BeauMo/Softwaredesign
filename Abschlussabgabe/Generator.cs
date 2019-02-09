@@ -34,9 +34,15 @@ namespace Abschlussabgabe
 
             foreach (Room room in rooms)
             {
-                int numberOfDay = 1;
+                int numberOfDay = 0;
                 foreach (Day day in room.roomTimetable.weekdays)
                 {
+                    if (day == null)
+                        continue;
+
+                    if (courses.Count == 0)
+                        continue;
+
                     Course course = getPossibleCourse(rnd, tempCourses, room, numberOfDay);
 
                     if (course == null)
@@ -61,19 +67,19 @@ namespace Abschlussabgabe
         {
             int i = 0;
             int random;
-            Course course = null;
+            Course course = courses[0];
             while (i != 1)
             {
                 if ((tempCourses == null) || (tempCourses.Count == 0))
                     return null;
 
-                random = rnd.Next(tempCourses.Count);
-                course = courses[random];
+                //random = rnd.Next(tempCourses.Count);
+                //course = courses[random];
                 if (room.compareWithCourse(course) && course.dozent.hasTime(numberOfDay))
                 {
                     i = 1;
                 }
-                else tempCourses.RemoveAt(random);
+                else tempCourses.Remove(course);
             }
             return course;
         }

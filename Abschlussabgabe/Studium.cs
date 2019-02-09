@@ -5,16 +5,14 @@ namespace Abschlussabgabe
 {
     class Studium
     {
-        public Studium(string name, int students, Timetable timetable)
+        public Studium(string name, int students)
         {
             this.name = name;
             this.students = students;
-            this.timetable = timetable;
+            this.timetable = new Timetable();
         }
 
         public string name;
-
-        public List<Course> courses;
 
         public int students;
 
