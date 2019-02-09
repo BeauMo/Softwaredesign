@@ -17,10 +17,20 @@ namespace Abschlussabgabe
             /*newElements();
             Generator generator = new Generator(rooms, studys, dozenten, courses, wpms);
             createTimetables(generator);*/
-            List<string> list = new List<string>{"Hallo","ich","bin", "Moritz", "bin"};
-            list.Remove("bin");
-            foreach(string s in list)
-                Console.WriteLine(s);
+            test test = new test();
+            test.list = new List<int>{1,2,3,4,5};
+
+            List<int> list = new List<int>();
+
+            foreach(int i in test.list)
+                list.Add(i);
+
+            list.Remove(3);
+            foreach(int s in list)
+                Console.Write(s + ", ");
+            Console.WriteLine();
+            foreach(int s in test.list)
+                Console.Write(s + ", ");
         }
 
         public static void createTimetables(Generator generator)

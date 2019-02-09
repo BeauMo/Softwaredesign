@@ -26,27 +26,27 @@ namespace Abschlussabgabe
 
         public void fillBlock(int block)
         {
-            int numberOfDay = 0;
             Random rnd = new Random();
-            //Check ob man damit nicht auch courses ändert
-            List<Course> tempCourses = this.courses;
-            foreach(Room room in rooms)
+
+            List<Course> tempCourses = new List<Course>();
+            foreach(Course copyCourse in courses)
+                tempCourses.Add(copyCourse);
+
+            foreach (Room room in rooms)
             {
-                numberOfDay = 1;
-                foreach(Day day in room.roomTimetable.weekdays)
+                int numberOfDay = 1;
+                foreach (Day day in room.roomTimetable.weekdays)
                 {
                     Course course = getPossibleCourse(rnd, tempCourses, room, numberOfDay);
 
-                    if(course == null)
+                    if (course == null)
                         continue;
 
-                    Block dayBlock = day.blocksOnDay[block];
-                    dayBlock.course = course;
                     day.blocksOnDay[block].course = course;
                     course.dozent.personalTimetable.weekdays[numberOfDay].blocksOnDay[block].course = course;
-                    foreach(Studium studium in course.participants)
+                    foreach (Studium studium in course.participants)
                     {
-                        if(studium.timetable.weekdays[numberOfDay].blocksOnDay[block].course != null)
+                        if (studium.timetable.weekdays[numberOfDay].blocksOnDay[block].course != null)
                             courses.Add(studium.timetable.weekdays[numberOfDay].blocksOnDay[block].course);
                         studium.timetable.weekdays[numberOfDay].blocksOnDay[block].course = course;
                     }
@@ -62,14 +62,15 @@ namespace Abschlussabgabe
             int i = 0;
             int random;
             Course course = null;
-            while(i != 1)
+            while (i != 1)
             {
-                if ( (tempCourses == null) || (tempCourses.Count == 0 ) )
+                if ((tempCourses == null) || (tempCourses.Count == 0))
                     return null;
-                
+
                 random = rnd.Next(tempCourses.Count);
                 course = courses[random];
-                if(room.compareWithCourse(course) && course.dozent.hasTime(numberOfDay)){
+                if (room.compareWithCourse(course) && course.dozent.hasTime(numberOfDay))
+                {
                     i = 1;
                 }
                 else tempCourses.RemoveAt(random);
@@ -77,6 +78,6 @@ namespace Abschlussabgabe
             return course;
         }
 
-        
+
     }
 }
