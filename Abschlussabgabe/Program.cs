@@ -19,6 +19,10 @@ namespace Abschlussabgabe
             createTimetables(generator);
 
             rooms[0].roomTimetable.show();
+            Console.WriteLine();
+            studys[0].timetable.show();
+            Console.WriteLine();
+            dozenten[0].personalTimetable.show();
         }
 
         public static void createTimetables(Generator generator)
@@ -32,21 +36,19 @@ namespace Abschlussabgabe
         }
         public static void newElements()
         {
-            dozenten.Add(new Dozent("Michael", "Waldowski", new List<Course>(), new int[2]{4,5}));
-            courses.Add( new Course
-            (
-                "GDV",
-                "Grafische Datenverarbeitung",
-                dozenten[0],
-                new List<Studium>(),
-                new List<Conditions> { Conditions.Normal }
-            )
-            );
-            rooms.Add(new Room("I.01", 30, new List<Conditions>{Conditions.Normal}));
-
+            dozenten.Add(new Dozent("Michael", "Waldowski", new int[2] { 4, 5 }));
+            dozenten.Add(new Dozent("Dirk", "Eisenbigler", new int[2] {3,4}));
+            dozenten.Add(new Dozent("Fridl", "Dell'Oro", new int[2] { 1, 2 }));
             studys.Add(new Studium("MIB4", 12));
+            studys.Add(new Studium("MIB1", 35));
+            courses.Add(new Course("GDV", "Grafische Datenverarbeitung", dozenten[0], new List<Studium>(){studys[0]}, new List<Conditions> { Conditions.Normal }));
+            courses.Add(new Course("SWD", "Softwaredesign", dozenten[2], new List<Studium>(){studys[0]}, new List<Conditions> { Conditions.Computer }));
+            courses.Add(new Course("PGR", "Programmieren", dozenten[1], new List<Studium>(){studys[1]}, new List<Conditions>(){Conditions.Normal}));
+            rooms.Add(new Room("I0.01", 30, new List<Conditions> { Conditions.Normal }));
+            rooms.Add(new Room("L1.01", 30, new List<Conditions> { Conditions.Computer }));
+            rooms.Add(new Room("L1.06a", 40, new List<Conditions> { Conditions.Normal }));
 
-            settings = new Settings(new int[6] { 2, 3, 4, 1, 5, 6 }, 5, 2, 3, true);
+            settings = new Settings(new int[6] { 2, 3, 4, 1, 5, 6 }, 5, 2, 3);
 
         }
     }
