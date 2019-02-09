@@ -9,13 +9,18 @@ namespace Abschlussabgabe
         private static List<Course> courses;
         private static List<Dozent> dozenten;
         private static List<Room> rooms;
+        private static List<WPM> wpms;
         private static Settings settings;
 
         static void Main(string[] args)
         {
-            newElements();
-            Generator generator = new Generator(rooms, studys, dozenten, courses);
-            createTimetables(generator);
+            /*newElements();
+            Generator generator = new Generator(rooms, studys, dozenten, courses, wpms);
+            createTimetables(generator);*/
+            List<string> list = new List<string>{"Hallo","ich","bin", "Moritz", "bin"};
+            list.Remove("bin");
+            foreach(string s in list)
+                Console.WriteLine(s);
         }
 
         public static void createTimetables(Generator generator)
@@ -39,7 +44,7 @@ namespace Abschlussabgabe
                 new List<Conditions> { Conditions.Normal }
             );
 
-            settings = new Settings(new int[6] { 2, 3, 4, 1, 5, 6 }, 5, 2, 3);
+            settings = new Settings(new int[6] { 2, 3, 4, 1, 5, 6 }, 5, 2, 3, true);
 
         }
     }

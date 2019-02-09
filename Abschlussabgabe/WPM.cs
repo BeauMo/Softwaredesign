@@ -11,7 +11,7 @@ namespace Abschlussabgabe
             this.description = description;
             this.time = time;
             this.dozent = dozent;
-            this.togetherWith = new List<Studium>();
+            this.participants = new List<Studium>();
             this.conditions = conditions; 
         }
         public int time;
