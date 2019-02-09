@@ -42,12 +42,7 @@ namespace Abschlussabgabe
         }
 
         public bool isRoomBigEnough(Course course){
-            int allParticipants = 0;
-            foreach(Studium studium in course.participants)
-            {
-                allParticipants += studium.students;
-            }
-            if(seats >= allParticipants)
+            if(seats >= course.studium.students)
                 return true;
             else return false;
         }

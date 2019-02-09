@@ -37,11 +37,6 @@ namespace Abschlussabgabe
         public void fillBlock(int block)
         {
             //Random rnd = new Random();
-
-            List<Course> tempAllCourses = new List<Course>();
-            foreach(Course copyCourse in allCourses)
-                tempAllCourses.Add(copyCourse);
-
             foreach (Room room in allRooms)
             {
                 int numberOfDay = 0;
@@ -53,35 +48,36 @@ namespace Abschlussabgabe
                     if (allCourses.Count == 0)
                         return;
 
-                    Course course = getPossibleCourse(/*rnd, */tempAllCourses, room, numberOfDay);
+                    Course course = getPossibleCourse(room, numberOfDay);
 
                     if (course == null)
                         continue;
 
+                    course.studium.timetable.weekdays[numberOfDay].blocksOnDay[block].course = course;
                     day.blocksOnDay[block].course = course;
                     course.dozent.personalTimetable.weekdays[numberOfDay].blocksOnDay[block].course = course;
-                    foreach (Studium studium in course.participants)
-                    {
-                        if (studium.timetable.weekdays[numberOfDay].blocksOnDay[block].course != null)
-                            allCourses.Add(studium.timetable.weekdays[numberOfDay].blocksOnDay[block].course);
-                        studium.timetable.weekdays[numberOfDay].blocksOnDay[block].course = course;
-                    }
+
                     allCourses.Remove(course);
                     numberOfDay++;
                 }
-
             }
         }
 
-        private Course getPossibleCourse(/*Random rnd, */List<Course> tempCourses, Room room, int numberOfDay)
+        private Course getPossibleCourse(Room room, int numberOfDay)
         {
+            List<Course> tempAllCourses = new List<Course>();
+            foreach(Course copyCourse in allCourses)
+                tempAllCourses.Add(copyCourse);
+
             int i = 0;
             //int random;
-            Course course = allCourses[0];
+            Course course = null;
             while (i != 1)
             {
-                if ((tempCourses == null) || (tempCourses.Count == 0))
+                if ((tempAllCourses == null) || (tempAllCourses.Count == 0))
                     return null;
+
+                course = tempAllCourses[0];
 
                 //random = rnd.Next(tempCourses.Count);
                 //course = courses[random];
@@ -91,7 +87,7 @@ namespace Abschlussabgabe
                 }
                 else 
                 {
-                    tempCourses.Remove(course);
+                    tempAllCourses.Remove(course);
                 }
             }
             return course;
