@@ -11,14 +11,15 @@ namespace Abschlussabgabe
         static void Main(string[] args)
         {
             Generator generator = new Generator();
-            //jsonRead(generator);
+            jsonRead(generator);
             Settings settings = new Settings(new int[6] { 2, 3, 4, 1, 5, 6 }, 5, 2, 3);
 
             /*foreach(Studium studium in generator.allStudys)
             {
                 Console.WriteLine(studium.name);
             }*/
-            Datas.createDatas(generator);
+            
+            //Datas.createDatas(generator);
 
             jsonWrite(generator);
 
@@ -26,19 +27,9 @@ namespace Abschlussabgabe
 
             Console.WriteLine(generator.allStudys[1].name + ":");
             generator.allStudys[1].timetable.show();
-
-            // Console.WriteLine();
-            // Console.WriteLine(generator.allDozenten[6].prename);
-            // generator.allDozenten[6].timetable.show();
-
-            // Console.WriteLine();
-            // Console.WriteLine();
-            // Console.WriteLine("Nicht gesetzte Kure:");
-            // foreach (Course course in generator.allCourses)
-            //     Console.Write(course.name + " ,");
         }
 
-        public static void createTimetables(Generator generator, Settings settings)
+        private static void createTimetables(Generator generator, Settings settings)
         {
             foreach (int block in settings.orderBlocks)
             {
@@ -47,7 +38,7 @@ namespace Abschlussabgabe
             generator.timetablesAreCalculated = true;
         }
 
-        public static void jsonWrite(Generator generator)
+        private static void jsonWrite(Generator generator)
         {
             JsonSerializerSettings settings = new JsonSerializerSettings
             {
@@ -69,7 +60,7 @@ namespace Abschlussabgabe
 
         }
 
-        public static void jsonRead(Generator generator)
+        private static void jsonRead(Generator generator)
         {
             JsonSerializerSettings settings = new JsonSerializerSettings
             {
