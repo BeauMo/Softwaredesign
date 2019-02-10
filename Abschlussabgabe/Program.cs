@@ -18,7 +18,7 @@ namespace Abschlussabgabe
 
             Console.WriteLine();
             Console.WriteLine(generator.allDozenten[6].prename);
-            generator.allDozenten[6].personalTimetable.show();
+            generator.allDozenten[6].timetable.show();
 
             Console.WriteLine();
             Console.WriteLine();

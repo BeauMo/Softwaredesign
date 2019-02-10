@@ -39,7 +39,7 @@ namespace Abschlussabgabe
             //Random rnd = new Random();
             foreach (Room room in allRooms)
             {
-                foreach (Day day in room.roomTimetable.weekdays)
+                foreach (Day day in room.roomTimetable.week)
                 {
 
                     if (allCourses.Count == 0)
@@ -50,9 +50,9 @@ namespace Abschlussabgabe
                     if (course == null)
                         continue;
 
-                    course.studium.timetable.weekdays[day.numberOfDay-1].blocksOnDay[block].course = course;
-                    room.roomTimetable.weekdays[day.numberOfDay-1].blocksOnDay[block].course = course;
-                    course.dozent.personalTimetable.weekdays[day.numberOfDay-1].blocksOnDay[block].course = course;
+                    course.studium.timetable.week[day.numberOfDay-1].blocksOnDay[block].course = course;
+                    room.roomTimetable.week[day.numberOfDay-1].blocksOnDay[block].course = course;
+                    course.dozent.timetable.week[day.numberOfDay-1].blocksOnDay[block].course = course;
 
                     allCourses.Remove(course);
                 }
@@ -74,7 +74,7 @@ namespace Abschlussabgabe
 
                 course = tempAllCourses[0];
 
-                if (room.compareWithCourse(course) && course.dozent.hasTime(numberOfDay) && course.studium.hasTime(numberOfDay, block))
+                if (!course.dozent.isBlocked(numberOfDay) && course.dozent.hasTime(numberOfDay, block) && course.studium.hasTime(numberOfDay, block) && room.compareWithCourse(course))
                 {
                     i = 1;
                 }

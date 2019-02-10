@@ -9,23 +9,30 @@ namespace Abschlussabgabe
         {
             this.name = name;
             this.prename = prename;
-            this.personalTimetable = new Timetable();
+            this.timetable = new Timetable();
             this.blockedDays = blockedDays;
         }
 
         public string name;
         public string prename;
-        public Timetable personalTimetable; 
+        public Timetable timetable; 
         public int[] blockedDays;
 
-        public bool hasTime(int numberOfDay){
+        public bool isBlocked(int numberOfDay)
+        {
             foreach(int blockedDay in blockedDays)
             {
                 if(numberOfDay+1 == blockedDay){
-                    return false;
+                    return true;
                 }
             }
-            return true;
+            return false;
+        }
+        public bool hasTime(int numberOfDay, int block)
+        {
+            if(timetable.week[numberOfDay].blocksOnDay[block].course == null)
+                return true;
+            else return false;
         }
         
     }

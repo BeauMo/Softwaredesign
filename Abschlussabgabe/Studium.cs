@@ -20,7 +20,7 @@ namespace Abschlussabgabe
         
         public bool hasTime(int numberOfDay, int block)
         {
-            if(timetable.weekdays[numberOfDay].blocksOnDay[block].course == null)
+            if(timetable.week[numberOfDay].blocksOnDay[block].course == null)
                 return true;
             else return false;
         }
