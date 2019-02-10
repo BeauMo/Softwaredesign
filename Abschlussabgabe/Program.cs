@@ -10,7 +10,6 @@ namespace Abschlussabgabe
     {
         static void Main(string[] args)
         {
-            //jsonRead();
             Generator generator = new Generator();
             jsonRead(generator);
             Settings settings = new Settings(new int[6] { 2, 3, 4, 1, 5, 6 }, 5, 2, 3);
@@ -21,12 +20,12 @@ namespace Abschlussabgabe
             }
             //Datas.createDatas(generator);
 
-            //jsonWrite(generator);
+            jsonWrite(generator);
 
-            // createTimetables(generator, settings);
+            createTimetables(generator, settings);
 
-            // Console.WriteLine(generator.allStudys[1].name + ":");
-            // generator.allStudys[1].timetable.show();
+            Console.WriteLine(generator.allStudys[1].name + ":");
+            generator.allStudys[1].timetable.show();
 
             // Console.WriteLine();
             // Console.WriteLine(generator.allDozenten[6].prename);
@@ -41,6 +40,8 @@ namespace Abschlussabgabe
 
         public static void createTimetables(Generator generator, Settings settings)
         {
+            generator.createEmptyTimetables();
+            
             foreach (int block in settings.orderBlocks)
             {
                 generator.fillBlock(block - 1);
@@ -63,11 +64,11 @@ namespace Abschlussabgabe
             string JDozenten = JsonConvert.SerializeObject(generator.allDozenten,settings);
             string JWpms = JsonConvert.SerializeObject(generator.allWpms,settings);
 
-            using (StreamWriter sw = new StreamWriter("Studiengänge.json",true)){sw.WriteLine(JStudys);}
-            using (StreamWriter sw = new StreamWriter("Räume.json",true)){sw.WriteLine(JRooms);}
-            using (StreamWriter sw = new StreamWriter("Kurse.json",true)){sw.WriteLine(JCourses);}
-            using (StreamWriter sw = new StreamWriter("Dozenten.json",true)){sw.WriteLine(JDozenten);}
-            using (StreamWriter sw = new StreamWriter("WPMs.json",true)){sw.WriteLine(JWpms);}
+            using (StreamWriter sw = new StreamWriter("Studiengänge.json",false)){sw.WriteLine(JStudys);}
+            using (StreamWriter sw = new StreamWriter("Räume.json",false)){sw.WriteLine(JRooms);}
+            using (StreamWriter sw = new StreamWriter("Kurse.json",false)){sw.WriteLine(JCourses);}
+            using (StreamWriter sw = new StreamWriter("Dozenten.json",false)){sw.WriteLine(JDozenten);}
+            using (StreamWriter sw = new StreamWriter("WPMs.json",false)){sw.WriteLine(JWpms);}
 
         }
 

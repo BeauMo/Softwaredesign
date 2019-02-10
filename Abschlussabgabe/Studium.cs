@@ -9,7 +9,6 @@ namespace Abschlussabgabe
         {
             this.name = name;
             this.students = students;
-            this.timetable = new Timetable();
         }
 
         public string name;
@@ -20,7 +19,7 @@ namespace Abschlussabgabe
         
         public bool hasTime(int numberOfDay, int block)
         {
-            if(timetable.week[numberOfDay].blocksOnDay[block].course == null)
+            if(timetable.week[numberOfDay].blocksPerDay[block].course == null)
                 return true;
             else return false;
         }

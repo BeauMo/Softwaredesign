@@ -34,12 +34,30 @@ namespace Abschlussabgabe
             return null;
         }
 
+        public void createEmptyTimetables()
+        {
+            foreach(Studium studium in allStudys)
+            {
+                studium.timetable = new Timetable();
+            }
+
+            foreach(Dozent dozent in allDozenten)
+            {
+                dozent.timetable = new Timetable();
+            }
+
+            foreach(Room room in allRooms)
+            {
+                room.timetable = new Timetable();
+            }
+        }
+
         public void fillBlock(int block)
         {
             //Random rnd = new Random();
             foreach (Room room in allRooms)
             {
-                foreach (Day day in room.roomTimetable.week)
+                foreach (Day day in room.timetable.week)
                 {
 
                     if (allCourses.Count == 0)
@@ -50,9 +68,9 @@ namespace Abschlussabgabe
                     if (course == null)
                         continue;
 
-                    course.studium.timetable.week[day.numberOfDay-1].blocksOnDay[block].course = course;
-                    room.roomTimetable.week[day.numberOfDay-1].blocksOnDay[block].course = course;
-                    course.dozent.timetable.week[day.numberOfDay-1].blocksOnDay[block].course = course;
+                    course.studium.timetable.week[day.numberOfDay-1].blocksPerDay[block].course = course;
+                    room.timetable.week[day.numberOfDay-1].blocksPerDay[block].course = course;
+                    course.dozent.timetable.week[day.numberOfDay-1].blocksPerDay[block].course = course;
 
                     allCourses.Remove(course);
                 }

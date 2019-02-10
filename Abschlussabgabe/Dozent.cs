@@ -9,7 +9,6 @@ namespace Abschlussabgabe
         {
             this.name = name;
             this.prename = prename;
-            this.timetable = new Timetable();
             this.blockedDays = blockedDays;
         }
 
@@ -30,7 +29,7 @@ namespace Abschlussabgabe
         }
         public bool hasTime(int numberOfDay, int block)
         {
-            if(timetable.week[numberOfDay].blocksOnDay[block].course == null)
+            if(timetable.week[numberOfDay].blocksPerDay[block].course == null)
                 return true;
             else return false;
         }

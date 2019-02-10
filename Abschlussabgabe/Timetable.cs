@@ -16,8 +16,8 @@ namespace Abschlussabgabe
             {
                 foreach (Day day in week)
                 {
-                    if (day.blocksOnDay[i].course != null)
-                        Console.Write("{0,-15}", day.blocksOnDay[i].course.name);
+                    if (day.blocksPerDay[i].course != null)
+                        Console.Write("{0,-15}", day.blocksPerDay[i].course.name);
                     else Console.Write("{0,-15}", "Frei");
                 }
                 Console.WriteLine();
