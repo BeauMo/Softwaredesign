@@ -10,6 +10,7 @@ namespace Abschlussabgabe
             this.name = name;
             this.prename = prename;
             this.blockedDays = blockedDays;
+            this.timetable = new Timetable();
         }
 
         public string name;

@@ -34,27 +34,26 @@ namespace Abschlussabgabe
             return null;
         }
 
-        public void createEmptyTimetables()
-        {
-            foreach(Studium studium in allStudys)
-            {
-                studium.timetable = new Timetable();
-            }
+        // public void createEmtyTimetable()
+        // {
+        //     foreach(Studium studium in allStudys)
+        //     {
+        //         studium.timetable = new Timetable();
+        //     }
 
-            foreach(Dozent dozent in allDozenten)
-            {
-                dozent.timetable = new Timetable();
-            }
+        //     foreach(Dozent dozent in allDozenten)
+        //     {
+        //         dozent.timetable = new Timetable();
+        //     }
 
-            foreach(Room room in allRooms)
-            {
-                room.timetable = new Timetable();
-            }
-        }
+        //     foreach(Room room in allRooms)
+        //     {
+        //         room.timetable = new Timetable();
+        //     }
+        // }
 
         public void fillBlock(int block)
         {
-            //Random rnd = new Random();
             foreach (Room room in allRooms)
             {
                 foreach (Day day in room.timetable.week)
@@ -104,7 +103,6 @@ namespace Abschlussabgabe
             }
             return course;
         }
-
 
     }
 }

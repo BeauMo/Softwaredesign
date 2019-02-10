@@ -9,6 +9,7 @@ namespace Abschlussabgabe
         {
             this.name = name;
             this.students = students;
+            this.timetable = new Timetable();
         }
 
         public string name;

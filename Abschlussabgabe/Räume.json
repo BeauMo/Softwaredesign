@@ -6,7 +6,161 @@
     "roomConditions": [
       0
     ],
-    "timetable": null
+    "timetable": {
+      "$type": "Abschlussabgabe.Timetable, Abschlussabgabe",
+      "week": [
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 1
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 2
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 3
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 4
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 5
+        }
+      ]
+    }
   },
   {
     "$type": "Abschlussabgabe.Room, Abschlussabgabe",
@@ -15,7 +169,161 @@
     "roomConditions": [
       1
     ],
-    "timetable": null
+    "timetable": {
+      "$type": "Abschlussabgabe.Timetable, Abschlussabgabe",
+      "week": [
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 1
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 2
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 3
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 4
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 5
+        }
+      ]
+    }
   },
   {
     "$type": "Abschlussabgabe.Room, Abschlussabgabe",
@@ -24,7 +332,161 @@
     "roomConditions": [
       0
     ],
-    "timetable": null
+    "timetable": {
+      "$type": "Abschlussabgabe.Timetable, Abschlussabgabe",
+      "week": [
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 1
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 2
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 3
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 4
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 5
+        }
+      ]
+    }
   },
   {
     "$type": "Abschlussabgabe.Room, Abschlussabgabe",
@@ -33,7 +495,161 @@
     "roomConditions": [
       4
     ],
-    "timetable": null
+    "timetable": {
+      "$type": "Abschlussabgabe.Timetable, Abschlussabgabe",
+      "week": [
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 1
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 2
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 3
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 4
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 5
+        }
+      ]
+    }
   },
   {
     "$type": "Abschlussabgabe.Room, Abschlussabgabe",
@@ -42,7 +658,161 @@
     "roomConditions": [
       4
     ],
-    "timetable": null
+    "timetable": {
+      "$type": "Abschlussabgabe.Timetable, Abschlussabgabe",
+      "week": [
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 1
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 2
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 3
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 4
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 5
+        }
+      ]
+    }
   },
   {
     "$type": "Abschlussabgabe.Room, Abschlussabgabe",
@@ -51,7 +821,161 @@
     "roomConditions": [
       1
     ],
-    "timetable": null
+    "timetable": {
+      "$type": "Abschlussabgabe.Timetable, Abschlussabgabe",
+      "week": [
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 1
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 2
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 3
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 4
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 5
+        }
+      ]
+    }
   },
   {
     "$type": "Abschlussabgabe.Room, Abschlussabgabe",
@@ -60,7 +984,161 @@
     "roomConditions": [
       4
     ],
-    "timetable": null
+    "timetable": {
+      "$type": "Abschlussabgabe.Timetable, Abschlussabgabe",
+      "week": [
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 1
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 2
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 3
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 4
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 5
+        }
+      ]
+    }
   },
   {
     "$type": "Abschlussabgabe.Room, Abschlussabgabe",
@@ -69,7 +1147,161 @@
     "roomConditions": [
       0
     ],
-    "timetable": null
+    "timetable": {
+      "$type": "Abschlussabgabe.Timetable, Abschlussabgabe",
+      "week": [
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 1
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 2
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 3
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 4
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 5
+        }
+      ]
+    }
   },
   {
     "$type": "Abschlussabgabe.Room, Abschlussabgabe",
@@ -78,7 +1310,161 @@
     "roomConditions": [
       0
     ],
-    "timetable": null
+    "timetable": {
+      "$type": "Abschlussabgabe.Timetable, Abschlussabgabe",
+      "week": [
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 1
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 2
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 3
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 4
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 5
+        }
+      ]
+    }
   },
   {
     "$type": "Abschlussabgabe.Room, Abschlussabgabe",
@@ -87,7 +1473,161 @@
     "roomConditions": [
       1
     ],
-    "timetable": null
+    "timetable": {
+      "$type": "Abschlussabgabe.Timetable, Abschlussabgabe",
+      "week": [
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 1
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 2
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 3
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 4
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 5
+        }
+      ]
+    }
   },
   {
     "$type": "Abschlussabgabe.Room, Abschlussabgabe",
@@ -96,7 +1636,161 @@
     "roomConditions": [
       4
     ],
-    "timetable": null
+    "timetable": {
+      "$type": "Abschlussabgabe.Timetable, Abschlussabgabe",
+      "week": [
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 1
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 2
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 3
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 4
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 5
+        }
+      ]
+    }
   },
   {
     "$type": "Abschlussabgabe.Room, Abschlussabgabe",
@@ -105,7 +1799,161 @@
     "roomConditions": [
       0
     ],
-    "timetable": null
+    "timetable": {
+      "$type": "Abschlussabgabe.Timetable, Abschlussabgabe",
+      "week": [
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 1
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 2
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 3
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 4
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 5
+        }
+      ]
+    }
   },
   {
     "$type": "Abschlussabgabe.Room, Abschlussabgabe",
@@ -114,7 +1962,161 @@
     "roomConditions": [
       0
     ],
-    "timetable": null
+    "timetable": {
+      "$type": "Abschlussabgabe.Timetable, Abschlussabgabe",
+      "week": [
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 1
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 2
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 3
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 4
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 5
+        }
+      ]
+    }
   },
   {
     "$type": "Abschlussabgabe.Room, Abschlussabgabe",
@@ -123,7 +2125,161 @@
     "roomConditions": [
       4
     ],
-    "timetable": null
+    "timetable": {
+      "$type": "Abschlussabgabe.Timetable, Abschlussabgabe",
+      "week": [
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 1
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 2
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 3
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 4
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 5
+        }
+      ]
+    }
   },
   {
     "$type": "Abschlussabgabe.Room, Abschlussabgabe",
@@ -132,7 +2288,161 @@
     "roomConditions": [
       1
     ],
-    "timetable": null
+    "timetable": {
+      "$type": "Abschlussabgabe.Timetable, Abschlussabgabe",
+      "week": [
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 1
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 2
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 3
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 4
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 5
+        }
+      ]
+    }
   },
   {
     "$type": "Abschlussabgabe.Room, Abschlussabgabe",
@@ -141,7 +2451,161 @@
     "roomConditions": [
       0
     ],
-    "timetable": null
+    "timetable": {
+      "$type": "Abschlussabgabe.Timetable, Abschlussabgabe",
+      "week": [
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 1
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 2
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 3
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 4
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 5
+        }
+      ]
+    }
   },
   {
     "$type": "Abschlussabgabe.Room, Abschlussabgabe",
@@ -150,7 +2614,161 @@
     "roomConditions": [
       3
     ],
-    "timetable": null
+    "timetable": {
+      "$type": "Abschlussabgabe.Timetable, Abschlussabgabe",
+      "week": [
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 1
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 2
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 3
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 4
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 5
+        }
+      ]
+    }
   },
   {
     "$type": "Abschlussabgabe.Room, Abschlussabgabe",
@@ -159,7 +2777,161 @@
     "roomConditions": [
       3
     ],
-    "timetable": null
+    "timetable": {
+      "$type": "Abschlussabgabe.Timetable, Abschlussabgabe",
+      "week": [
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 1
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 2
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 3
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 4
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 5
+        }
+      ]
+    }
   },
   {
     "$type": "Abschlussabgabe.Room, Abschlussabgabe",
@@ -168,6 +2940,160 @@
     "roomConditions": [
       0
     ],
-    "timetable": null
+    "timetable": {
+      "$type": "Abschlussabgabe.Timetable, Abschlussabgabe",
+      "week": [
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 1
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 2
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 3
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 4
+        },
+        {
+          "$type": "Abschlussabgabe.Day, Abschlussabgabe",
+          "blocksPerDay": [
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            },
+            {
+              "$type": "Abschlussabgabe.Block, Abschlussabgabe",
+              "course": null
+            }
+          ],
+          "numberOfDay": 5
+        }
+      ]
+    }
   }
 ]
