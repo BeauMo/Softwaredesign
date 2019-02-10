@@ -24,6 +24,8 @@ namespace Abschlussabgabe
 
         public List<WPM> allWpms;
 
+        public bool timetablesAreCalculated;
+
         public Studium getByName(string name)
         {
             foreach (Studium studium in allStudys)

@@ -44,6 +44,7 @@ namespace Abschlussabgabe
             {
                 generator.fillBlock(block - 1);
             }
+            generator.timetablesAreCalculated = true;
         }
 
         public static void jsonWrite(Generator generator)

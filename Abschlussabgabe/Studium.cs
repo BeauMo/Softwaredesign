@@ -24,5 +24,26 @@ namespace Abschlussabgabe
                 return true;
             else return false;
         }
+
+        public void possibleWpms(Generator generator)
+        {
+            List<WPM> possibleWpms = new List<WPM>();
+            if(generator.timetablesAreCalculated == true)
+            {
+                foreach(WPM wpm in generator.allWpms)
+                {
+                    if(timetable.week[wpm.day-1].blocksPerDay[wpm.block-1].course == null)
+                        possibleWpms.Add(wpm);
+                }
+            }
+            else Console.WriteLine("Stundenplan noch nicht berechnet");
+            
+            Console.WriteLine("Mögliche WPMs an deren Terminen du Zeit hast:");
+            Console.WriteLine();
+            foreach(WPM wpm in possibleWpms)
+            {
+                Console.Write(wpm.name);
+            }
+        } 
     }
 }
