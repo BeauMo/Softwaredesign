@@ -5,72 +5,67 @@ namespace Abschlussabgabe
 {
     class Generator
     {
-        public Generator(List<Room> rooms, List<Studium> studys, List<Dozent> dozenten, List<Course> courses, List<WPM> wpms)
+        public Generator()
         {
-            this.allRooms = rooms;
-            this.studys = studys;
-            this.dozenten = dozenten;
-            this.allCourses = courses;
-            this.wpms = wpms;
+            this.allRooms = new List<Room>();
+            this.allStudys = new List<Studium>();
+            this.allDozenten = new List<Dozent>();
+            this.allCourses = new List<Course>();
+            this.allWpms = new List<WPM>();
         }
 
         public List<Room> allRooms;
 
-        public List<Studium> studys;
+        public List<Studium> allStudys;
 
-        public List<Dozent> dozenten;
+        public List<Dozent> allDozenten;
 
         public List<Course> allCourses;
 
-        public List<WPM> wpms;
+        public List<WPM> allWpms;
 
         public Studium getByName(string name)
         {
-            foreach(Studium studium in studys)
+            foreach (Studium studium in allStudys)
             {
-                if(studium.name.Equals(name))
+                if (studium.name.Equals(name))
                     return studium;
             }
             return null;
         }
-        
+
         public void fillBlock(int block)
         {
             //Random rnd = new Random();
             foreach (Room room in allRooms)
             {
-                int numberOfDay = 0;
                 foreach (Day day in room.roomTimetable.weekdays)
                 {
-                    if (day == null)
-                        continue;
 
                     if (allCourses.Count == 0)
                         return;
 
-                    Course course = getPossibleCourse(room, numberOfDay);
+                    Course course = getPossibleCourse(room, day.numberOfDay-1, block);
 
                     if (course == null)
                         continue;
 
-                    course.studium.timetable.weekdays[numberOfDay].blocksOnDay[block].course = course;
-                    day.blocksOnDay[block].course = course;
-                    course.dozent.personalTimetable.weekdays[numberOfDay].blocksOnDay[block].course = course;
+                    course.studium.timetable.weekdays[day.numberOfDay-1].blocksOnDay[block].course = course;
+                    room.roomTimetable.weekdays[day.numberOfDay-1].blocksOnDay[block].course = course;
+                    course.dozent.personalTimetable.weekdays[day.numberOfDay-1].blocksOnDay[block].course = course;
 
                     allCourses.Remove(course);
-                    numberOfDay++;
                 }
             }
         }
 
-        private Course getPossibleCourse(Room room, int numberOfDay)
+        private Course getPossibleCourse(Room room, int numberOfDay, int block)
         {
             List<Course> tempAllCourses = new List<Course>();
-            foreach(Course copyCourse in allCourses)
+            foreach (Course copyCourse in allCourses)
                 tempAllCourses.Add(copyCourse);
 
             int i = 0;
-            //int random;
             Course course = null;
             while (i != 1)
             {
@@ -79,15 +74,14 @@ namespace Abschlussabgabe
 
                 course = tempAllCourses[0];
 
-                //random = rnd.Next(tempCourses.Count);
-                //course = courses[random];
-                if (room.compareWithCourse(course) && course.dozent.hasTime(numberOfDay))
+                if (room.compareWithCourse(course) && course.dozent.hasTime(numberOfDay) && course.studium.hasTime(numberOfDay, block))
                 {
                     i = 1;
                 }
-                else 
+                else
                 {
                     tempAllCourses.Remove(course);
+                    course = null;
                 }
             }
             return course;

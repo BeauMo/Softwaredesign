@@ -6,7 +6,7 @@ namespace Abschlussabgabe
     {
         public Timetable()
         {
-            this.weekdays = new Day[5]{new Day(),new Day(),new Day(),new Day(),new Day()};
+            this.weekdays = new Day[5]{new Day(1),new Day(2),new Day(3),new Day(4),new Day(5)};
         }
         public Day[] weekdays;
 
