@@ -5,14 +5,13 @@ namespace Abschlussabgabe
 {
     class WPM : Course
     {
-        public WPM(string name, string description, int day, int block, Dozent dozent, Studium studium, List<Conditions> conditions)
+        public WPM(string name, string description, int day, int block, Dozent dozent, List<Conditions> conditions)
         {
             this.name = name;
             this.description = description;
             this.day = day;
             this.block = block;
             this.dozent = dozent;
-            this.studium = studium;
             this.conditions = conditions; 
         }
         public int day;

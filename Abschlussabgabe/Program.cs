@@ -11,7 +11,7 @@ namespace Abschlussabgabe
         static void Main(string[] args)
         {
             Generator generator = new Generator();
-            jsonRead(generator);
+            //jsonRead(generator);
             Settings settings = new Settings(new int[6] { 2, 3, 4, 1, 5, 6 }, 5, 2, 3);
 
             /*foreach(Studium studium in generator.allStudys)
@@ -19,14 +19,16 @@ namespace Abschlussabgabe
                 Console.WriteLine(studium.name);
             }*/
             
-            //Datas.createDatas(generator);
+            Datas.createDatas(generator);
 
-            jsonWrite(generator);
+            //jsonWrite(generator);
 
             createTimetables(generator, settings);
 
-            Console.WriteLine(generator.allStudys[1].name + ":");
-            generator.allStudys[1].timetable.show();
+            Console.WriteLine(generator.allStudys[0].name + ":");
+            generator.allStudys[0].timetable.show();
+
+            generator.allStudys[5].possibleWpms(generator);
         }
 
         private static void createTimetables(Generator generator, Settings settings)
