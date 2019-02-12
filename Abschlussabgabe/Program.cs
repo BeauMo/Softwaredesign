@@ -4,6 +4,8 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System.IO;
 
+//dotnet add package Newtonsoft.json
+
 namespace Abschlussabgabe
 {
     class Program
